@@ -34,8 +34,7 @@ const Home = () => {
 
     const handleTaskAddition = (taskTitle) => {
         const newTask = [...tasks, {
-            id: uuidv4
-                (10),
+            id: uuidv4(10),
             title: taskTitle,
             completed: false
         }];
